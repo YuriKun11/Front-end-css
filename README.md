@@ -1,12 +1,12 @@
 # Frontend CSS components
 
-Welcome to Front end CSS! 
+Welcome to Fastbuild CSS! 
 
-#Front end CSS is a front-end website that allows users to quickly build web pages by copy-pasting pre-designed components. Whether you're a developer looking to speed up your workflow or a beginner looking to create a website without starting from scratch, FastBuild CSS Templates has you covered.
+#Fastbuild CSS is a front-end website that allows users to quickly build web pages by copy-pasting pre-designed components. Whether you're a developer looking to speed up your workflow or a beginner looking to create a website without starting from scratch, FastBuild CSS Templates has you covered.
 
 ## How to Use
 
-1. Visit [Frontend CSS Components](https://yurikun11.github.io/Front-end-css/).
+1. Visit [Fastbuild CSS Components](https://yurikun11.github.io/Front-end-css/).
 2. Browse through my collection of pre-designed components.
 3. Click on the component you want to use.
 4. Ctrl C + Ctrl V
