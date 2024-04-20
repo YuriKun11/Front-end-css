@@ -14,7 +14,7 @@
 <!-- Navbar -->
 <div class="navbar" id="myNavbar">
     <div class="navbar-logo">
-        <h1><a href="#" class="logo">Front End Css</a></h1>
+        <h1><a href="#" class="logo">Fastbuild Css</a></h1>
     </div>
     <div class="burger">
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
@@ -32,7 +32,7 @@
             <a class="title" style="font-size: 15px; width: 10rem; pointer-events: none;"><b>UI Components</b></a>
             <a style="margin-left: 1rem;" href="#responsive-navbar">Navbar</a>
             <a style="margin-left: 1rem;" href="#css-cards">Cards</a>
-            <a style="margin-left: 1rem;" href="#">Button</a>
+            <a style="margin-left: 1rem;" href="#css-buttons">Button</a>
     </div>
         <div class="sidebar-links">
             <a class="title" style = "font-size: 15px; width: 10rem; pointer-events: none;"><b>Layouts</b></a>
@@ -48,7 +48,7 @@
         <div class="sidebar-links">
             <a href="#responsive-navbar">Navbar</a>
             <a href="#css-cards">Cards</a>
-            <a href="#">Button</a>
+            <a href="#css-buttons">Button</a>
         </div>
         <h1 style="font-size: 15px; width: 10rem; margin-top: 2rem;">Layouts</h1>
         <div class="sidebar-links">
@@ -243,8 +243,8 @@ if (x.className === "navbar") {
         <div class="code-wrap" id="css-cards">
 
             <div class="code-title">
-                
-                <h2 style="margin-top: 25px; margin-bottom: 7px;">Cards</h2>
+                <h1 style="color: #2A33D9; margin-top: 25px; margin-bottom: 7px;">UI Components</h1>
+                <h2 >Cards</h2>
             </div>
          
             <div class="code-tainer" >
@@ -253,14 +253,148 @@ if (x.className === "navbar") {
                     <button onclick="copyToClipboard('cardsCode')" class="copy-button-html"><i class="fa fa-copy"></i> Copy</button>
                 </div>
                 <div class="css" id="cardsCode">
-<pre><code class="copy-input">Comming Soon!</code></pre>
+<pre><code class="copy-input">&lt;div class="card"&gt;
+    &lt;h2&gt;Card 1&lt;/h2&gt;
+    &lt;p&gt;Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, quasi inventore? Neque corporis nobis libero, 
+    repudiandae reprehenderit, ab illo necessitatibus harum qui dolorem eaque doloremque adipisci velit? Doloremque, hic harum!&lt;/p&gt;
+    &lt;button class="card-button"&gt;Card button&lt;/button&gt;
+&lt;/div&gt;   
+</code></pre>
+                </div>
+            </div>
+            
+
+        </div>
+        <div class="code-wrap" id="css-cards">
+         
+            <div class="code-tainer" >
+                <div class="html">
+                    <h4>CSS</h4>
+                    <button onclick="copyToClipboard('cardscssCode')" class="copy-button-html"><i class="fa fa-copy"></i> Copy</button>
+                </div>
+                <div class="css" id="cardscssCode">
+<pre><code class="copy-input">.card{
+    margin: 1rem;
+    text-align: start;
+    padding: 15px;
+    width: 18rem;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.card-wrap{
+    display: flex;
+}
+.card-button {
+    background-color: #8B93FF;  
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.card-button:hover {
+    background-color: #5755FE;
+}
+   
+</code></pre>
                 </div>
             </div>
             
 
         </div>
 
-      
+      <!-- This is where the code wrap ends -->
+            <!-- This is where the contents begin -->
+
+        <div class="code-wrap" id="css-buttons">
+
+            <div class="code-title">
+                <h1 style="color: #2A33D9; margin-top: 25px; margin-bottom: 7px;">UI Components</h1>
+                <h2>Buttons</h2>
+            </div>
+         
+            <div class="code-tainer" >
+                <div class="html">
+                    <h4>HTML</h4>
+                    <button onclick="copyToClipboard('buttonCode')" class="copy-button-html"><i class="fa fa-copy"></i> Copy</button>
+                </div>
+                <div class="css" id="buttonCode">
+<pre><code class="copy-input">&lt;button class="button-1" role="button"&gt;Button 1&lt;/button&gt;
+&lt;button class="button-2" role="button"&gt;Button 2&lt;/button&gt;
+&lt;button class="button-3" role="button"&gt;Button 3&lt;/button&gt; 
+</code></pre>
+                </div>
+            </div>
+            
+
+        </div>
+        <div class="code-wrap" id="css-cards">
+         
+            <div class="code-tainer" >
+                <div class="html">
+                    <h4>CSS</h4>
+                    <button onclick="copyToClipboard('buttoncssCode')" class="copy-button-html"><i class="fa fa-copy"></i> Copy</button>
+                </div>
+                <div class="css" id="buttoncssCode">
+<pre><code class="copy-input">.button-1 {
+    cursor: pointer;
+    background-color: #EA4C89;
+    border-radius: 8px;
+    border-style: none;
+    color: #FFFFFF;
+    font-size: 14px;
+    height: 40px;
+    padding: 10px 16px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.button-1:hover {
+    background-color: #75354d;
+}
+
+.button-2 {
+    cursor: pointer;
+    background-color: #405cf5;
+    border-radius: 6px;
+    border-width: 0;
+    color: #fff;
+    height: 44px;
+    margin: 12px 0 0;
+    padding: 0 25px;
+    text-align: center;
+    transition: all .2s,box-shadow .08s ease-in;
+}
+
+.button-2:hover {
+    background-color: #293dac;
+}
+
+.button-3 {
+    background-color: #8B93FF;  
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.button-3:hover {
+    background-color: #5755FE;
+}</code></pre>
+                </div>
+            </div>
+            
+
+        </div>
+
+      <!-- This is where the code wrap ends -->
         
     </div>
 
