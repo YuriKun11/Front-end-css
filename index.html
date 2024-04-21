@@ -31,6 +31,7 @@
     <div class="sidebar-links">
             <a class="title" style="font-size: 15px; width: 10rem; pointer-events: none;"><b>UI Components</b></a>
             <a style="margin-left: 1rem;" href="#responsive-navbar">Navbar</a>
+            <a style="margin-left: 1rem;" href="#sidebar">Navbar with sidebar</a>
             <a style="margin-left: 1rem;" href="#css-cards">Cards</a>
             <a style="margin-left: 1rem;" href="#css-buttons">Button</a>
     </div>
@@ -47,6 +48,7 @@
         <h1 style="font-size: 15px; width: 10rem;">UI Components</h1>
         <div class="sidebar-links">
             <a href="#responsive-navbar">Navbar</a>
+            <a href="#sidebar">Navbar with sidebar</a>
             <a href="#css-cards">Cards</a>
             <a href="#css-buttons">Button</a>
         </div>
@@ -59,13 +61,32 @@
     </div>
     <div class="contents">
 
+           <!-- This is where the contents begin -->
+
+           <div class="code-wrap">
+
+            <div class="code-title">
+                <h1 style="color: #2A33D9;">UI Components</h1>
+                <h2 style="margin-top: 5px; margin-bottom: 7px;">Responsive Navbar</h2>
+            </div>
+         
+            <div class="code-tainer">
+                <div class="html">
+                    <h4>HTML</h4>
+                    <button onclick="copyToClipboard('linkrelCode')" class="copy-button-css"><i class="fa fa-copy"></i> Copy</button>
+                </div>
+                <div class="css" id="linkrelCode">
+<pre><code>&lt;link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"&gt;</code></pre>
+                </div>
+            </div>
+        </div>
+        <!-- This is where the contents begin -->
         <!-- This is where the contents begin -->
 
         <div class="code-wrap" id="responsive-navbar">
 
             <div class="code-title">
-                <h1 style="color: #2A33D9;">UI Components</h1>
-                <h2 style="margin-top: 5px; margin-bottom: 7px;">Responsive Navbar</h2>
+                
             </div>
          
             <div class="code-tainer" >
@@ -93,10 +114,7 @@
                 </div>
             </div>
         </div>
-
          <!-- This is where the contents ends -->
-        <!-- This is where the contents begin -->
-
         <div class="code-wrap">
 
             <div class="code-title">
@@ -239,6 +257,239 @@ if (x.className === "navbar") {
 
 
             <!-- This is where the contents begin -->
+
+
+              <!-- This is where the contents begin -->
+
+           <div class="code-wrap" id="sidebar">
+
+            <div class="code-title">
+                <h1 style="color: #2A33D9;">UI Components</h1>
+                <h2 style="margin-top: 5px; margin-bottom: 7px;">Responsive Navbar with sidebar</h2>
+            </div>
+         
+            <div class="code-tainer">
+                <div class="html">
+                    <h4>HTML</h4>
+                    <button onclick="copyToClipboard('linkrelCode')" class="copy-button-css"><i class="fa fa-copy"></i> Copy</button>
+                </div>
+                <div class="css" id="linkrelCode">
+<pre><code>&lt;link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"&gt;</code></pre>
+                </div>
+            </div>
+        </div>
+        <!-- This is where the contents begin -->
+              <!-- This is where the contents begin -->
+
+           <div class="code-wrap">
+
+            <div class="code-title">
+                
+            </div>
+         
+            <div class="code-tainer">
+                <div class="html">
+                    <h4>HTML</h4>
+                    <button onclick="copyToClipboard('navbarburgerCode')" class="copy-button-css"><i class="fa fa-copy"></i> Copy</button>
+                </div>
+                <div class="css" id="navbarburgerCode">
+                    <pre><code>&lt;div class="navbar"&gt;
+    &lt;div class="logo-wrap"&gt;
+        &lt;a href="#" class="burger" onclick="openNav()"&gt;&amp;#9776;&lt;/a&gt;
+        &lt;a href="#" class="logo"&gt;Logo&lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class="navlinks"&gt;
+        &lt;a href="#"&gt;Home&lt;/a&gt;
+        &lt;a href="#"&gt;About&lt;/a&gt;
+        &lt;a href="#"&gt;Services&lt;/a&gt;
+        &lt;a href="#"&gt;Contact&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="mySidenav" class="sidenav"&gt;
+    &lt;a href="#" class="logo"&gt;Logo&lt;/a&gt;
+    &lt;a href="javascript:void(0)" class="closebtn" onclick="closeNav()"&gt;&amp;times;&lt;/a&gt;
+    &lt;a href="#"&gt;Home&lt;/a&gt;
+    &lt;a href="#"&gt;About&lt;/a&gt;
+    &lt;a href="#"&gt;Services&lt;/a&gt;
+    &lt;a href="#"&gt;Contact&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class="container"&gt;
+    &lt;h1&gt;Contents here&lt;/h1&gt;
+&lt;/div&gt;
+
+&lt;div class="sidenav-overlay" onclick="closeNav()"&gt;&lt;/div&gt;</code></pre>
+                    
+                </div>
+            </div>
+        </div>
+        <!-- This is where the contents begin -->
+              <!-- This is where the contents begin -->
+
+           <div class="code-wrap">
+
+            <div class="code-title">
+                
+            </div>
+         
+            <div class="code-tainer">
+                <div class="html">
+                    <h4>app.css</h4>
+                    <button onclick="copyToClipboard('navbarcssCode')" class="copy-button-css"><i class="fa fa-copy"></i> Copy</button>
+                </div>
+                <div class="css" id="navbarcssCode">
+<pre><code>@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+.navbar {
+    align-items: center;
+    overflow: hidden;
+    background-color: #5755FE;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    pointer-events: none;
+}
+.navbar a.logo {
+    font-size: 30px;
+}
+
+.logo-wrap{
+    display: flex;
+    align-items: center;
+}
+.logo-wrap .burger{
+    display: block;
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #5755FE;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+.sidenav a {
+    padding: 10px 8px 10px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #f1f1f1;
+    display: block;
+    transition: 0.3s;
+}
+.sidenav a:hover {
+    color: #818181;
+}
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.sidenav-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+    z-index: 0;
+}
+
+.sidenav-open .sidenav-overlay {
+    display: block;
+}</code></pre>
+        
+                    
+                </div>
+            </div>
+        </div>
+        <!-- This is where the contents begin -->
+              <!-- This is where the contents begin -->
+
+           <div class="code-wrap">
+
+            <div class="code-title">
+                
+            </div>
+         
+            <div class="code-tainer">
+                <div class="html">
+                    <h4>media.css</h4>
+                    <button onclick="copyToClipboard('navbarmediaCode')" class="copy-button-css"><i class="fa fa-copy"></i> Copy</button>
+                </div>
+                <div class="css" id="navbarmediaCode">
+<pre><code>@media screen and (max-width: 600px) {
+.navlinks{
+    display: none;
+}
+.logo-wrap .burger{
+    display: block;
+    }
+}
+</code></pre>
+        
+                    
+                </div>
+            </div>
+        </div>
+
+        <!-- content ends -->
+              <!-- This is where the contents begin -->
+
+           <div class="code-wrap">
+
+            <div class="code-title">
+                
+            </div>
+         
+            <div class="code-tainer">
+                <div class="html">
+                    <h4>app.js</h4>
+                    <button onclick="copyToClipboard('navbarappjsCode')" class="copy-button-css"><i class="fa fa-copy"></i> Copy</button>
+                </div>
+                <div class="css" id="navbarappjsCode">
+<pre><code>function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.body.classList.add("sidenav-open");
+}
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.body.classList.remove("sidenav-open");
+}</code></pre>
+        
+                    
+                </div>
+            </div>
+        </div>
+
+        <!-- content ends -->
+
+        <!-- This is where the contents begin -->
+
 
         <div class="code-wrap" id="css-cards">
 
